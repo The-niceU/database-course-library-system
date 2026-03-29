@@ -84,7 +84,7 @@ erDiagram
 ```
 
 > 说明：`READERS` 与 `BOOKS` 是多对多关系，通过联系实体 `BORROWS` 拆解为两条 1:N 关系。
-
+<image src="./ER.png" alt="ER图" >
 ---
 
 ## 技术栈与依赖

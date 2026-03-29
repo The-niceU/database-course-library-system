@@ -62,7 +62,7 @@ app.use(function(err,req,res,next)
 });
 
 //:create server
-let port=80;
+let port = process.env.PORT || 80;
 var server = require('http').createServer(app.OnRequest);
 server.on('error', onError);
 server.on('listening', onListening);
